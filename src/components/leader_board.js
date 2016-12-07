@@ -49,8 +49,8 @@ class LeaderBoard extends Component {
               <tr>
                 <th>#</th>
                 <th>Camper Name</th>
-                <th onClick={this.handleRecClick}>Points: Past 30 days</th>
-                <th onClick={this.handleAllClick}>Points: All Time</th>
+                <th onClick={this.handleRecClick}>Points: Past 30 days <a href="#"><span className="glyphicon glyphicon-triangle-bottom"></span></a></th>
+                <th onClick={this.handleAllClick}>Points: All Time <a href="#"><span className="glyphicon glyphicon-triangle-bottom"></span></a></th>
               </tr>
             </thead>
               {/* There should be a component here. The component will pull data from json and determine how many <tr>s to create. It will have 4 <tds> */}
