@@ -8,5 +8,5 @@ This app was built in React and pulls data from a remote JSON API using the open
 
 You can view the app here:
 ```
-https://urlshortenermicroservice.herokuapp.com/new/http://www.github.com
+https://reactleaderboard.herokuapp.com/
 ```
